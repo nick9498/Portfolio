@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border-top: 1px solid #dddddd;
+    width: 1150px;
+    margin-top: 100px;
+    float: left;
+    margin-left: 20px
+}
+
+td {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 25px 8px;
+}
+tr td:nth-child(1) img{
+   margin: 0 22px;
+}
+tr td:nth-child(1){
+   width: 85px;
+}
+tr td:nth-child(2){
+   width: 718px;
+}
+td span{
+    line-height: 100px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.up { width: 580px; color: #79b93c; font-size: 20px; font-weight: bold; margin-bottom: 10px; }
+.down { width: 580px; font-size: 18px; font-weight: 500;  }
+.down b{  font-size: 20px; font-weight: 600;  }
+
+
+tr td:nth-child(3) img{
+    background: url(../../img/contact/goodjob.png) no-repeat;
+   float: left;
+   margin-right: 10px;
+}
+
+tr td:nth-child(3) img:active{
+   background: url(../../img/contact/goodjob_h.png) no-repeat;
+   background-size: 51px 86px;
+   z-index: 100
+}
+tr td:nth-child(4) img{
+   background: url(../../img/contact/soso.png) no-repeat;
+}
+tr td:nth-child(4) img:active{
+   background: url(../../img/contact/soso_h.png) no-repeat;
+}

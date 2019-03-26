@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+.box01 { width: 100%; height: 292px; color: white;}
+.box02 { width: 100%; height: 475px; margin-top: 88px;}
+.box03 { width: 100%; height: 362px; margin-top: 88px; }
+.box04 { width: 100%; height: 436px; margin-top: 88px; }
+
+.pf_img {width: 195px; height: 292px; float: left; margin-left: 20px; }
+.pf_content {width: 480px; height: 292px; float: left; margin-left: 40px; }
+.pf_skill {width: 378px; height: 292px; float: left; margin-left: 40px; }
+
+.pf_content .title { width: 100%; height: 85px; margin-top: 25px; }
+.pf_content .title h1 { font-weight: bold; font-size: 28px; float: left; margin-bottom: 13px;}
+.pf_content .title span {  float: left; font-size: 15px; margin-top: 18px; margin-left: 10px;}
+.pf_content .title h2 {  float: left; clear: both; font-size: 23px; color: #79b93c; font-weight: 500; line-height: 36px;}
+.pf_content p { font-size: 18px; margin-top: 20px; }
+
+.pf_content .plus_menu{  width: 100%; height: 28px; margin-top: 20px;}
+.pf_content .friend{ width: 150px; height: 100%; float: left; }
+.pf_content .friend img { float: left }
+.pf_content .friend img:active { background:url(../../img/aboutme/aboutme_hhurt.png) no-repeat;}
+.pf_content .friend h3 { float: left; line-height: 22px; font-size: 20px; margin-left: 8px }
+.pf_content .friend h4 { float: left; line-height: 23px; font-size: 25px; margin-left: 8px; font-weight: 300 }
+.pf_content .sns{ width: 220px; height: 100%; margin-left: 20px; float: left}
+.pf_content .sns h3 { float: left; margin-right: 20px; margin-left: 30px; line-height: 22px; font-size: 20px;}
+.pf_content .sns img { float: left; margin-left: 10px; }
+
+.pf_skill h1 { margin-top: 107px; font-size: 20px;}
+.pf_skill .photo { margin-top: 25px; height: 29px; }
+.pf_skill .ill { margin-top: 20px; height: 29px; }
+.pf_skill .coding { margin-top: 20px; height: 29px; }
+
+.pf_skill .photo h2 { float: left; width: 100px; height: 100%; line-height: 29px}
+.pf_skill .photo .star_rating {float: left; width: 160px; height: 100%}
+.pf_skill .photo h3 { float: left; width: 100px; height: 100%; line-height: 29px; margin-left: 10px; color: #79b93c}
+.pf_skill .photo .star_rating img { margin-left: 10px; }
+
+.pf_skill .coding h2 { float: left; width: 100px; height: 100%; line-height: 29px}
+.pf_skill .coding .star_rating {float: left; width: 160px; height: 100%}
+.pf_skill .coding h3 { float: left; width: 100px; height: 100%; line-height: 29px; margin-left: 10px; color: #79b93c}
+.pf_skill .coding img { margin-left: 10px; }
+
+.pf_skill .ill h2 { float: left; width: 100px; height: 100%; line-height: 29px}
+.pf_skill .ill .star_rating {float: left; width: 160px; height: 100%}
+.pf_skill .ill h3 { float: left; width: 100px; height: 100%; line-height: 29px; margin-left: 10px; color: #79b93c}
+.pf_skill .ill .star_rating img { margin-left: 10px; }

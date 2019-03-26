@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+#div_1 {
+	position: absolute;
+	top: 65%;
+	left: 28.5%;
+}
+#div_2 {
+	position: absolute;
+	top: 65%;
+	left: 36%;
+}
+#div_3 {
+	position: absolute;
+	top: 65%;
+	left: 43.5%;
+	
+}
+#div_4 {
+	position: absolute;
+	top: 65%;
+	left: 51.5%;
+}
+#div_1 p{
+	position: absolute;
+	color: #79b93c;
+	top: 35%;
+	left: 22%;
+}
+#div_2 p{
+	position: absolute;
+	color: #79b93c;
+	top: 35%;
+	left: 5%;
+}
+#div_3 p{
+	position: absolute;
+	color: #79b93c;
+	top: 35%;
+	left: 10%;
+}
+#div_4 p{
+	position: absolute;
+	color: #79b93c;
+	top: 35%;
+	left: 12%;
+}

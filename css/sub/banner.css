@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+*{ 
+	margin: 0 auto; padding: 0
+}
+#wrap{
+	width:100%;
+	color: white;
+}
+header{
+	width: 1191px;
+	height: 94px;
+	margin:0 auto;
+}
+#container{
+	width: 1191px;
+	height: 4250px;
+	margin:0 auto;
+	
+}
+aside{
+	width: 220px;
+	float: left;
+}
+
+section{
+	width: 971px;
+	float: left;
+}
+footer{
+	width: 1191px;
+	height: 90px;
+	margin:0 auto;
+}
+#head{
+	width: 780px;
+	height: 88px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.backbutton { margin-bottom: 10px; margin-top: 90px; }
+section .title {  font-size: 40px; font-weight: bold }
+section .title b { color: #79b93c; }
+section .sub_title { width: 920px; font-size: 20px; font-weight: 400; margin-top: 30px}
+section .portfolio_image  { margin-top: 80px; }
+section .mokup_image { margin-top: 80px; }
+
+
+#STATICMENU .player {width: 102px; height: 608px; background: url(../../img/sub/playerbox.png) no-repeat; }
+#STATICMENU .player #control_button {width: 60%; height: 100%; margin: 0 auto; }
+#STATICMENU .player #control_button .replay_button { float:left; margin-top: 45px; }
+#STATICMENU .player #control_button .back_button { float:left; margin-top: 45px;}
+#STATICMENU .player #control_button .play_button { float:left; margin-top: 45px;}
+#STATICMENU .player #control_button .front_button { float:left; margin-top: 45px;}
+#STATICMENU .player #control_button .volum_button { float:left; margin-top: 45px;}
+
+
+#STATICMENU .player #control_button .back_button img:hover { background:url(../../img/sub/portfolio_back.png) no-repeat;}
+#STATICMENU .player #control_button .back_button img:active { background:url(../../img/sub/portfolio_hback.png) no-repeat;}
+#STATICMENU .player #control_button .front_button img:hover { background:url(../../img/sub/portfolio_front.png) no-repeat;}
+#STATICMENU .player #control_button .front_button img:active { background:url(../../img/sub/portfolio_hfront.png) no-repeat;}
+
+
+#footer{ width: 780px; height: 80px; margin: 0 auto; text-align: center;}
+#footer span { font-size: 15px; color: white; margin-top: 20px;}
