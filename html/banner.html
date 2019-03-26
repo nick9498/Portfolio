@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>about me</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/sub/banner.css">
+	<link rel="stylesheet" type="text/css" href="../css/sub/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript">
+	 var stmnLEFT = 70; // 오른쪽 여백 
+	 var stmnGAP1 = 0; // 위쪽 여백 
+	 var stmnGAP2 = 100; // 스크롤시 브라우저 위쪽과 떨어지는 거리 
+	 var stmnBASE = 100; // 스크롤 시작위치 
+	 var stmnActivateSpeed = 15; //스크롤을 인식하는 딜레이 (숫자가 클수록 느리게 인식)
+	 var stmnScrollSpeed = 10; //스크롤 속도 (클수록 느림)
+	 var stmnTimer; 
+	 
+	 function RefreshStaticMenu() { 
+	  var stmnStartPoint, stmnEndPoint; 
+	  stmnStartPoint = parseInt(document.getElementById('STATICMENU').style.top, 10); 
+	  stmnEndPoint = Math.max(document.documentElement.scrollTop, document.body.scrollTop) + stmnGAP2; 
+	  if (stmnEndPoint < stmnGAP1) stmnEndPoint = stmnGAP1; 
+	  if (stmnStartPoint != stmnEndPoint) { 
+	   stmnScrollAmount = Math.ceil( Math.abs( stmnEndPoint - stmnStartPoint ) / 15 ); 
+	   document.getElementById('STATICMENU').style.top = parseInt(document.getElementById('STATICMENU').style.top, 10) + ( ( stmnEndPoint<stmnStartPoint ) ? -stmnScrollAmount : stmnScrollAmount ) + 'px'; 
+	   stmnRefreshTimer = stmnScrollSpeed; 
+	   }
+	  stmnTimer = setTimeout("RefreshStaticMenu();", stmnActivateSpeed); 
+	  } 
+	 function InitializeStaticMenu() {
+	  document.getElementById('STATICMENU').style.right = stmnLEFT + 'px';  //처음에 오른쪽에 위치. left로 바꿔도.
+	  document.getElementById('STATICMENU').style.top = document.body.scrollTop + stmnBASE + 'px'; 
+	  RefreshStaticMenu();
+	  }
+	</script>
+	<style type="text/css">
+	#STATICMENU { margin: 0pt; padding: 0pt;  position: absolute; right: 0px; top: 0px;}
+	::-webkit-scrollbar {
+	width: 0; height: 0; 
+	border: 0 solid #fff; }
+	::-webkit-scrollbar-button:start:decrement, 
+	::-webkit-scrollbar-button:end:increment {
+	display: block; height: 10px; 
+	background:#FFF;}
+	::-webkit-scrollbar-track {background:#FFF;}
+	::-webkit-scrollbar-thumb {height: 0; width: 0; background: rgba(255,0,0,.5);}
+	/**/
+	</style>
+
+	
+</head>
+<body id="big" bgcolor="black" onload="InitializeStaticMenu();">
+	<div id="wrap">
+		<header></header>
+		<div id="container">
+			<aside>
+				<div class="backbutton"><a href="../portfolio.html"><img src="../img/sub/back.png" alt="#"></a></div>
+				<nav class="nav" role="navigation">
+				    <ul class="nav__list">
+				      <li>
+				        <input id="group-1" type="checkbox" hidden checked="on"/>
+				        <label for="group-1" style="font-weight: 600"><span class="fa fa-angle-right"></span>Graphic design</label>
+					        <ul class="group-list">
+					          <li><a href="banner.html" style="color: #79b93c; font-weight: 600">- banner</a></li>
+					          <li><a href="eventbanner.html">- eventpage</a></li>
+					          <li><a href="webmail.html">- webmail</a></li>
+					          <li><a href="promotion.html">- promotion</a></li>
+					          <li><a href="pentool.html">- illustration</a></li>
+					        </ul>
+				      </li>
+
+				      <li>
+				        <input id="group-2" type="checkbox" hidden />
+				        <label for="group-2"><span class="fa fa-angle-right"></span> Site design</label>
+				        <ul class="group-list">
+				          <li><a href="redesign.html">- redsign</a></li>
+				          <li><a href="project.html">- project</a></li>
+				        </ul>
+				      </li>
+
+				      <li>
+					      <input id="group-3" type="checkbox" hidden  />
+					      <label for="group-3"><span class="fa fa-angle-right"></span> Coding</label>
+						      <ul class="group-list">
+						          <li><a href="sub_skinrx.html" >- skinrx</a></li>
+						          <li><a href="on&on site.html">- on&on</a></li>
+						          <li><a href="parisbagutte.html">- 파리바게트 site</a></li>
+						      </ul>
+				      </li>
+				    </ul>
+				</nav>
+			</aside>
+			<section>
+				<div class="title"><b>B</b>anner</div>
+				<div class="sub_title">마리웨일237은 전 세계 237개국의 매력적인 음료와 다양한 프리미엄 디저트를 전하는 카페입니다. 북유럽의 빈티지한 느낌을 내고 싶어서 과일의 펜일러스트를 사용하였고 각 마카롱 색을 포인트컬러로 잡았습니다. 실제 제품 사진을 돋보이게 하기 위해 배경 부분은 투명도를 주었으며, 제목 부분은 마카롱의 색상을 이용하였습니다. </div>
+				<div class="portfolio_image"><img src="../img/sub/project/banner01.gif" alt="#" width="920"></div>
+				<div class="portfolio_image"><img src="../img/sub/project/banner02.gif" alt="#" width="920"></div>
+				<div class="portfolio_image"><img src="../img/sub/project/banner03.gif" alt="#" width="920"></div>
+				<div class="portfolio_image"><img src="../img/sub/project/banner04.gif" alt="#" width="920"></div>
+				<div class="mokup_image"><img src="../img/sub/mokup/mokup_banner01.jpg"  width="920" alt="#"></div>
+				<div class="mokup_image"><img src="../img/sub/mokup/mokup_banner02.jpg"  width="920" alt="#"></div>
+			</section>
+		</div>
+		<div id="STATICMENU">
+			<div class="player">
+				<div id="control_button">
+				<div class="replay_button" onclick="ChangeImage();">
+					<img src="../img/sub/portfolio_replay.png" alt="#" name="replay">
+				</div>
+				<div class="back_button" onclick="$('#thumbnail-slider-prev').click(); $('html, body').stop().animate( { scrollTop : 0 } );" >
+					<img src="../img/sub/portfolio_back.png" alt="#" onmouseover="this.src='../img/sub/asd.png'" onmouseout="this.src='../img/sub/portfolio_back.png'">
+				</div>
+				<div class="play_button" onclick="ChangeImage2();$('#thumbnail-slider-pause-play').click(); " >
+					<img src="../img/sub/portfolio_play.png" alt="#" name="play" >
+				</div>
+				<div class="front_button" onclick="$('#thumbnail-slider-next').click();$('html, body').stop().animate( { scrollTop : 5000 } );" >
+					<img src="../img/sub/portfolio_front.png" alt="#" onmouseover="this.src='../img/sub/asd.png'" onmouseout="this.src='../img/sub/portfolio_front.png'">
+				</div>
+				<div class="volum_button" onclick="ChangeImage4()">
+					<img src="../img/sub/portfolio_volum.png" alt="#" name="volum">
+				</div>
+			</div>
+			</div>
+		</div>
+		<footer>
+			<div id="footer">
+				<span>COPYRIGHT ©2018 HYEN JONG. ALL RIGHTS RESERVED.</span>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript">
+
+		var state = 0;
+		function ChangeImage() {
+			if(state == 0){
+				document.replay.src ="../img/sub/portfolio_hreplay.png"
+				state = 1;
+			}else{
+				document.replay.src ="../img/sub/portfolio_replay.png"
+				state = 0;
+				
+			}
+		}
+
+	</script>
+	<script type="text/javascript">
+
+		var state = 0;
+		function ChangeImage2() {
+			if(state == 0){
+				document.play.src ="../img/sub/portfolio_pause.png"
+				state = 1;
+				$('html, body').stop().animate( { scrollTop : 5000 },15000 );
+			}else{
+				document.play.src = "../img/sub/portfolio_play.png"
+				state = 0;
+				$('html, body').stop();
+			}
+		}
+
+
+	</script>
+	<script type="text/javascript">
+
+		var state = 0;
+		function ChangeImage4() {
+			if(state == 0){
+				document.volum.src ="../img/sub/portfolio_hvolum.png"
+				state = 1;
+			}else{
+				document.volum.src = "../img/sub/portfolio_volum.png"
+				state = 0;
+			}
+		}
+
+
+	</script>
+
+</body>
+</html>
