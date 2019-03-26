@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1000">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<title>about me</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/contact/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/contact/table.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<style type="text/css">
+		/*스크롤바*/
+::-webkit-scrollbar {
+ width: 0; height: 0; 
+ border: 0 solid #fff; }
+::-webkit-scrollbar-button:start:decrement, 
+::-webkit-scrollbar-button:end:increment {
+ display: block; height: 10px; 
+ background:#FFF;}
+::-webkit-scrollbar-track {background:#FFF;}
+::-webkit-scrollbar-thumb {height: 0; width: 0; background: rgba(255,0,0,.5);}
+/**/
+	</style>
+</head>
+<body bgcolor="black">
+	<div id="wrap">
+		<header>
+			<div id="head">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutme.html">About Me</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</header>
+		<section>
+			<div class="top_box">
+				<div class ="title">
+					<h5>댓글</h5> <h6>( 총 <b>4</b> 개 )</h6>
+				</div>
+				<div class="comment_box">
+					<div class="profile_box"><</div>
+					<form class="comment">
+						 <textarea name="content" cols="40" rows="8" onfocus="this.value=''" >궁금한 점이 있으시다면 댓글에 적어주세요.
+						 </textarea>
+					</form>
+					<form class="button">
+						<input type="button" value="등록" onclick="alert('등록이 실패하였습니다.\n서버가 불안정 하오니 010-3928-8184로 문자 주세요 ');return false;"></button>
+					</form>
+					<p>* 건전한 댓글 문화 정착을 위해 이용에 주의를 부탁드립니다.</p>
+				</div>
+			</div>
+			<div clss="bottom_box">
+				<table>
+				  <tr>
+				    <td><img src="img/contact/name.jpg" alt"#"></td>
+				    <td ><div class="up">이 름</div><div class="down">한글로는 <b>이 현 종</b>, 영어로는 <b>LEE HYEN JOING</b>,
+한문으로는 李 ( 오얏나무 이 ), 炫 ( 빛날 현 ), 宗 ( 마루 종 )을 씁니다.</div></td>
+				    <td><img src="img/contact/asd.png" alt="#" width="53" height="86" id="a" ><span id="a_t">100</span></td>
+				    <td><img src="img/contact/asd.png" alt="#" width="53" height="86" id="a-"><span id="a-_t">18</span></td>
+				  </tr>
+				  <tr>
+				    <td><img src="img/contact/phone.jpg" alt"#"></td>
+				    <td ><div class="up">전 화</div><div class="down"><b>010 -3928 -8184</b> 이며, 24시간 중 07:00 ~ 21:00 까지 통화 가능 합니다.</div></td>
+				    <td><img src="img/contact/asd.png" alt="#" width="53" height="86" id="b"><span id="b_t">120</span></td>
+				    <td><img src="img/contact/asd.png" alt="#" width="53" height="86" id="b-"><span id="b-_t">52</span></td>
+				  </tr>
+				  <tr>
+				    <td><img src="img/contact/email.jpg" alt"#"></td>
+				    <td ><div class="up">메 일</div><div class="down">네이버는 <b>nick9498@naver.com</b> 이고, 카카오톡 아이디는 nick9498 입니다.
+대부분의 SNS 와 게임에서 모두 동일된 아이디를 씁니다. ( 구글은 nick940713 입니다. ) </div></td>
+				    <td><img src="img/contact/asd.png" alt="#" width="53" height="86" id="c"><span id="c_t">250</span></td>
+				    <td><img src="img/contact/asd.png" alt="#" width="53" height="86" id="c-"><span id="c-_t">34</span></td>
+				  </tr>
+				  <tr>
+				    <td><img src="img/contact/address.jpg" alt"#"></td>
+				    <td ><div class="up">주 소</div><div class="down"> 서울시 동작구 대방동 11 길 3, 빌라에서 살고 있으며,  <b>동작구 대방동</b>은 여의도, 영등포, 노량진 사이에 위치합니다.</div></td>
+				    <td><img src="img/contact/asd.png" alt="#" width="53" height="86" id="d"><span id="d_t">105</span></td>
+				    <td><img src="img/contact/asd.png" alt="#" width="53" height="86" id="d-"><span id="d-_t">21</span></td>
+				  </tr>
+				</table>
+			</div>
+		</section>
+		<footer>
+			<div id="footer">
+				<span>COPYRIGHT ©2018 HYEN JONG. ALL RIGHTS RESERVED.</span>
+			</div>
+		</footer>
+	</div>
+	<script language="javascript">
+
+      function alerttest(){
+            alert("alert 테스트");
+
+            if(document.)
+
+      }
+
+ 	</script>
+	<script type="text/javascript">
+		$(function(){
+			$('#a').click(function(e){
+				e.preventDefault();
+				var stat = $('#a_t').text();
+				var num = parseInt(stat,10);
+				num++;
+				$('#a_t').text(num);
+			});
+			$('#b').click(function(e){
+				e.preventDefault();
+				var stat = $('#b_t').text();
+				var num = parseInt(stat,10);
+				num++;
+				$('#b_t').text(num);
+			});
+			$('#c').click(function(e){
+				e.preventDefault();
+				var stat = $('#c_t').text();
+				var num = parseInt(stat,10);
+				num++;
+				$('#c_t').text(num);
+			});
+			$('#d').click(function(e){
+				e.preventDefault();
+				var stat = $('#d_t').text();
+				var num = parseInt(stat,10);
+				num++;
+				$('#d_t').text(num);
+			});
+			$('#a-').click(function(e){
+				e.preventDefault();
+				var stat = $('#a-_t').text();
+				var num = parseInt(stat,10);
+				num--;
+				if(num<0){
+				alert('더이상 줄일수 없습니다.');
+				num=0;
+				}
+				$('#a-_t').text(num);
+			});
+			$('#b-').click(function(e){
+				e.preventDefault();
+				var stat = $('#b-_t').text();
+				var num = parseInt(stat,10);
+				num--;
+				if(num<0){
+				alert('더이상 줄일수 없습니다.');
+				num=0;
+				}
+				$('#b-_t').text(num);
+			});
+			$('#c-').click(function(e){
+				e.preventDefault();
+				var stat = $('#c-_t').text();
+				var num = parseInt(stat,10);
+				num--;
+				if(num<0){
+				alert('더이상 줄일수 없습니다.');
+				num=0;
+				}
+				$('#c-_t').text(num);
+			});
+			$('#d-').click(function(e){
+				e.preventDefault();
+				var stat = $('#d-_t').text();
+				var num = parseInt(stat,10);
+				num--;
+				if(num<0){
+				alert('더이상 줄일수 없습니다.');
+				num=0;
+				}
+				$('#d-_t').text(num);
+			});
+		});
+	</script>
+</body>
+</html>
