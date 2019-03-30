@@ -142,6 +142,7 @@ background: #ccc;
 background: #EE4035;
 }
 }
+
 @media screen and (max-width:750px){
 #background_anmation .melody01{
 	top: 20%;
@@ -178,4 +179,4 @@ background: #EE4035;
 	top: 3%;
 	left: 28%;
 }
-	}
+}

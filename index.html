@@ -7,11 +7,9 @@
 	<title>index</title>
 	<link rel="stylesheet" type="text/css" href="css/home/home.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/home/nav_animation.css">
-	<link rel="stylesheet" type="text/css" href="css/home/menu_hover.css">
 	<link rel="stylesheet" type="text/css" href="css/home/background.css">
-	<script type="text/javascript" src="js/index/menu.js"></script>
-	<script type="text/javascript" src="js/index/menubutton.js"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>  
+
 
 </head>
 <body bgcolor="black">
@@ -24,67 +22,19 @@
 				<div class="fourth"><img src="img/home/home_circle_03.png"/ alt="#"></div>
 				<div class="fifth"><img src="img/home/home_circle_02.png"/ alt="#"></div>
 				<div class="sixth"><img src="img/home/home_circle_01.png"/ alt="#"></div>
-				<div class="title">
-					<h1>HyenJong’s</h1>
-					<h2>PortFolio</h2>
-				</div>
-				<div class="play">
-					<div class="button"></div>
-				</div>
-				<nav class="nav">
-				  <input type="checkbox" class="nav__cb" id="menu-cb"/>
-				  <div class="nav__content">
-				    <ul class="nav__items">
-				      <li class="nav__item">
-				        <span class="nav__item-text">
-				          <a href="index.html">
-				          <img src="img/home/home_icon_01.png" alt="#" width="25" height="22" onMouseOut="hideBar('div_1'); this.src='img/home/home_icon_01.png';" onMouseMove="viewBar('div_1','',event,10,20);" onmouseOver="this.src='img/home/home_hicon_01.png';">
-				          </a>
-				        </span>
-				      </li>
-				      <li class="nav__item">
-				        <span class="nav__item-text">
-				          <a href="aboutme.html">
-				          <img src="img/home/home_icon_02.png" alt="#" width="25" height="22" onMouseOut="hideBar('div_2'); this.src='img/home/home_icon_02.png';" onMouseMove="viewBar('div_2','',event,10,20);" onmouseOver="this.src='img/home/home_hicon_02.png';">
-				      	  </a>
-				        </span>
-				      </li>
-				      <li class="nav__item">
-				        <span class="nav__item-text">
-				          <<a href="portfolio.html">
-				          <img src="img/home/home_icon_03.png" alt="#" width="25" height="22" onMouseOut="hideBar('div_3');  this.src='img/home/home_icon_03.png';" onMouseMove="viewBar('div_3','',event,10,20);" onmouseOver="this.src='img/home/home_hicon_03.png';">
-				      	  </a>
-				        </span>
-				      </li>
-				      <li class="nav__item">
-				        <span class="nav__item-text">
-				          <a href="contact.html">
-				          <img src="img/home/home_icon_04.png" alt="#" width="25" height="22" onMouseOut="hideBar('div_4');  this.src='img/home/home_icon_04.png';" onMouseMove="viewBar('div_4','',event,10,20);" onmouseOver="this.src='img/home/home_hicon_04.png';">
-				     	  </a>
-				        </span>
-				      </li>
-				    </ul>
-				  </div>
-				  <label class="nav__btn" for="menu-cb" onclick="ChangeImage()">
-				  	<img src="img/home/home_play.png"/ alt="#" name="img2" width="15" height="18" >
-				  </label>
-				</nav>
-				<div id=div_1 class=div_class>
-					<img src='img/home/home_icon_hover.png' alt="#" width="60" height="29">
-					<p>Home</p>
-				</div>
-				<div id=div_2 class=div_class>
-					<img src='img/home/home_icon_hover.png' alt="#" width="60" height="29">
-					<p>About me</p>
-				</div>
-				<div id=div_3 class=div_class>
-					<img src='img/home/home_icon_hover.png' alt="#" width="60" height="29">
-					<p>Portfolio</p>
-				</div>
-				<div id=div_4 class=div_class>
-					<img src='img/home/home_icon_hover.png' alt="#" width="60" height="29">
-					<p>Contact</p>
-				</div>
+				<label class="nav__btn" for="menu-cb">
+					<span class="desc">
+						<span style="color:#FFFFFF">PORTFOLIO</span>
+					</span>
+			  		<div class="play">
+			  			<a href="aboutme.html">
+			  				<img src="img/home/home_play.png"  alt="#" name="img2" >
+			  			</a>
+			  	    </div>
+			  		<span class="desc2">
+						<span style="color:#FFFFFF">HYEONJONG</span>
+					</span>
+				</label>
 			</div>
 		</div>
 		<div id="background_anmation">
