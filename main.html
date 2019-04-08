@@ -242,30 +242,29 @@
         
         <div class="column">
 
-            <form id="contact_form" name="contact_form" enctype="text/plain" class="contact_form" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSfqhGrhDnWi3lbE5BuvkzUyb1G3o9Xkdi24d__h67xZcLynSg/viewform?" target="hidden_iframe" onsubmit="submitted=true;">
+            <form id="contact_form" name="contact_form" class="contact_form" method="post" action="https://formspree.io/nick9498@naver.com">
                 <div class="title3"> C <span>ONTACT</span></div>
                 <div class="two_columns_50_50 clearfix">
                     <div class="column1">
                         <div class="column_inner">
-                            <input type="text" class="requiredField placeholder" name="entry.588400487" id="entry.588400487" value="" placeholder="이 름 *">
+                            <input type="text" class="requiredField placeholder" name="name" id="name" placeholder="이 름 *">
                         </div>
                     </div>
                     <div class="column2">
                         <div class="column_inner">
-                            <input type="text" class="requiredField placeholder" name="entry.1172291613" id="entry.1172291613" value="" placeholder="제 목 *">
+                            <input type="text" class="requiredField placeholder" name="title" id="title"placeholder="제 목 *">
                         </div>
                     </div>
                 </div>
                     <div class="website_field_holder">
-                        <input type="text" class="requiredField email placeholder" name="entry.872361617" id="entry.872361617" value="" placeholder="Email *">
+                        <input type="text" class="requiredField email placeholder" name="email" id="email" value="" placeholder="Email *">
                         <input type="hidden" name="website" id="website" value="">
                     </div>
-                        <textarea name="entry.812127812" id="entry.812127812" rows="10" placeholder="내용" class="placeholder"></textarea>
+                        <textarea name="content" id="content" rows="10" placeholder="내용" class="placeholder"></textarea>
                 <span class="submit_button_contact">
                     <input class="qbutton contact_form_button" type="submit" value="Contact Us">
                 </span>
-            </form> 
-            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+            </form>
         </div>
     </div>
     <!-- //Contact 페이지 -->
@@ -285,14 +284,6 @@
         showActiveTooltip: true,
         menu: '#menu'
     });
-</script>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#contact_form').on('submit', function(e) {
-  $('#contact_form *').fadeOut(2000);
-  $('#contact_form').prepend('제출 완료하였습니다.').css("color","white");
-  });
 </script>
 </body>
 </html>
