@@ -242,7 +242,7 @@
         
         <div class="column">
 
-            <form id="contact_form" class="contact_form" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSfqhGrhDnWi3lbE5BuvkzUyb1G3o9Xkdi24d__h67xZcLynSg/viewform?" target="hidden_iframe" onsubmit="submitted=true;">
+            <form id="contact_form" name="contact_form" enctype="text/plain" class="contact_form" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSfqhGrhDnWi3lbE5BuvkzUyb1G3o9Xkdi24d__h67xZcLynSg/viewform?" target="hidden_iframe" onsubmit="submitted=true;">
                 <div class="title3"> C <span>ONTACT</span></div>
                 <div class="two_columns_50_50 clearfix">
                     <div class="column1">
@@ -291,7 +291,7 @@
 <script type="text/javascript">
 $('#contact_form').on('submit', function(e) {
   $('#contact_form *').fadeOut(2000);
-  $('#contact_form').prepend('Your submission has been processed...');
+  $('#contact_form').prepend('제출 완료하였습니다.').css("color","white");
   });
 </script>
 </body>
