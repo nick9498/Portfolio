@@ -1,0 +1,117 @@
+/* About CSS
+ * --------------------------------------- */
+
+.about{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	font-family:'Nanum Barun Gothic', sans-serif;
+	color: white;
+}
+.about .image_box{
+	margin-right: 50px;
+}
+.about .image_box .title{
+	margin-top: -46px;
+	color: #0ef7a7;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about .image_box .title span{
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+/* 소개내용  */
+.about .intro_box{
+	display: flex;
+	flex-direction:column;
+	margin-right: 150px;
+}
+
+/* 소개내용_제목부분 */
+.about .intro_box .title_box{
+	width: 100%;
+	font-weight: bold;
+	font-size: 35px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.about .intro_box .grade_box{
+	display: flex;
+	align-items : center;
+	font-size: 28px;
+	margin-top: 10px;
+}
+.about .intro_box .grade_box .score{
+	height: 33px;
+	margin-left: 12px;
+	color: #0ef7a7;
+}
+.about .intro_box .grade_box .grade img{
+	width: 35px;
+	height: 35px;
+}
+
+
+/* 소개내용_내용부분 */
+.about .intro_box .content_box{
+	display: flex;
+	flex-direction:row;
+	font-family: initial;
+	font-size: 20px;
+	line-height: 45px;
+}
+.about .intro_box .content_box .title{
+	font-weight: 400;
+	margin-right: 30px;
+}
+.about .intro_box .content_box .content{
+	font-weight: 100;
+}
+
+
+/* 소개내용_스킬부분 */
+.about .skill_box{
+	display: flex;
+ 	flex-direction: column;
+ 	font-weight: 400;
+ 	text-align: center;
+}
+.about .skill_box .skill_box1{
+ 	display: flex;
+ 	padding-top: 30px;
+ }
+ .about .skill_box .skill_box2{
+ 	display: flex;
+ 	padding-top: 30px;
+ }
+ .about .skill_box .skill1,.skill3{
+ 	padding-right: 80px;
+ }
+.about .skill_box .skill1 strong,.skill2 strong,.skill3 strong,.skill4 strong{
+	margin-top: 40px;
+	color: #0ef7a7;
+ 	font-size: 30px;
+ 	font-weight: 400;
+}
+ .about .skill_box .skill1 strong{
+ 	position: absolute;
+ 	margin-left: 45px;
+ }
+ .about .skill_box .skill2 strong{
+ 	position: absolute;
+ 	margin-left: 45px;
+ }
+ .about .skill_box .skill3 strong{
+ 	position: absolute;
+ 	margin-left: 40px;
+ }
+ .about .skill_box .skill4 strong{
+ 	position: absolute;
+ 	margin-left: 40px;	
+ }
