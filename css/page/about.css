@@ -185,7 +185,6 @@
 	margin-right: 20px;
 }
 
-
 .about .skill_box{
 	width: 80%;
 	justify-content: center;
@@ -199,10 +198,10 @@
 .skill_2{display: inherit;}
 
 .about .skill_box .skill1,.skill3{
- 	padding-right: 20px;
+ 	padding: 20px 15px;
  }
- .about .skill_box .skill2{
- 	padding-right: 20px;
+ .about .skill_box .skill2,.skill4{
+ 	padding: 20px 15px;
  }
  .about .skill_box .skill1 strong,.skill2 strong,.skill3 strong,.skill4 strong{
 	margin-top: 28px;
