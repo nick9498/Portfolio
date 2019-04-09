@@ -164,6 +164,9 @@
 	font-weight: 400;
 	letter-spacing: 4px;
 }
+.fp-slidesNav{
+	display: none;
+}
 
 }
 
