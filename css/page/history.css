@@ -1,0 +1,126 @@
+.history,.history2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nanum Barun Gothic';
+    font-weight: lighter;
+    font-size: 18px;
+}
+.history .title,.history2 .title{
+    display: flex;
+    color: #0ef7a7;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.history .title span,.history2 .title span{
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-left: 5px;
+    line-height: 1.8;
+}
+.history .work,.history2 .work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.history_box{
+    width: 80%;
+}
+
+ table {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+th {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    padding: 15px 30px;
+}
+td {
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+tr {
+    text-align: center;
+    padding: 0px 50px;
+}
+td span{
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 50px;
+}
+.history2{
+    display: none;
+}
+
+
+
+ @media screen and (max-width:1200px){
+
+.history{
+    display: none;
+}
+.history2{
+    display: flex;
+}
+.history2 .title{
+    margin-bottom: 0px;
+}
+.history2 .title span{
+    margin-bottom: 10px;
+}
+.history2 .history_box .work .td_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 50px;
+}
+td {
+    padding: 10px 0px;
+}
+td span{
+    font-size: 14px;
+    line-height: 10px;
+    font-weight: 400;
+}
+td strong{
+    font-size: 12px;
+    color: #0ef7a7;
+}
+
+
+}
+
+@media screen and (max-width:750px){
+.history2{
+    font-size: 12px;
+}
+.history_box{
+    width: 90%;
+}
+.history2 .history_box .work .td_box{
+    line-height: 30px;
+}
+th{
+    padding: 10px 15px;
+}
+td span{
+    font-size: 12px;
+    line-height: inherit;
+    font-weight: 100;
+}
+td strong{
+    font-size: 12px;
+    line-height: 20px;
+    color: #0ef7a7;
+}
+
+}

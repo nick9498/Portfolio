@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <title>Portfolio</title>
+    
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- 자동 새로고침 -->
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> 
+
+    <!-- 나눔바른고딕체 -->
+    <link href='https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css' rel='stylesheet' type='text/css'>
+
+    <!-- css파일 연결 -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/tool/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="css/tool/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/tool/hidemenu.css" />
+    <link rel="stylesheet" type="text/css" href="css/page/about.css" />
+    <link rel="stylesheet" type="text/css" href="css/page/history.css" />
+    <link rel="stylesheet" type="text/css" href="css/page/work.css" />
+    <link rel="stylesheet" type="text/css" href="css/page/contact.css" />
+    <link rel="stylesheet" type="text/css" href="css/tool/component.css" />
+
+</head>
+
+<body>
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+        <h3><a href="index.html">HOME</a></h3>
+        <a href="#about" data-menuanchor="about" class="active">About</a>
+        <a href="#history" data-menuanchor="history">History</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+        <h2><a id="showLeft">Close</a></h2>
+    </nav>
+<!--상단 메뉴-->
+<ul id="menu">
+    <li class="index"><a href="index.html">Home</a></li>
+    <li data-menuanchor="about" class="active"><a href="#about">About</a></li>
+    <li data-menuanchor="history"><a href="#history">History</a></li>
+    <li data-menuanchor="work"><a href="#work">Work</a></li>
+    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+    <button id="showRight" style="background-image: url(img/menu.png); background-repeat: no-repeat;"></button>
+</ul>
+
+
+
+
+<!--메인 페이지 -->
+<div id="fullpage" >
+
+    <!-- About 페이지 -->
+    <div class="section" id="section0">
+        
+        <div class="about">
+            
+            <div class="innerbox">
+                <!-- 소개이미지 -->
+                <div class="image_box animated fadeInLeft">
+                    <div class="title"> A <span>BOUT</span></div>
+                    <img src="img/hyeonjonglee.jpg" alt="#">
+                    
+                </div>
+                <!-- //소개이미지 -->
+                
+                <!-- 소개내용 -->
+                <div class="intro_box animated fadeInLeft">
+                    
+                    <!-- 제목 -->
+                    <div class="title_box" >
+                        <span>나의 데일리 ( My Daily ) </span>
+                        <div class="grade_box">
+                            <p class="grade">
+                                <img src="img/star.png" alt="#">
+                                <img src="img/star.png" alt="#">
+                                <img src="img/star.png" alt="#">
+                                <img src="img/nstar.png" alt="#">
+                                <img src="img/nstar.png" alt="#">
+                            </p>
+                            <span class="score">6.0</span>
+                        </div>
+                    </div>
+                    <!-- //제목 -->
+
+                    <!-- 내용 -->
+                    <div class="content_box">
+                        <div class="title">
+                            <p>NAME</p>
+                            <p>BIRTH</p>
+                            <p>SEX</p>
+                            <p>PHONE</p>
+                            <p>E-MAIL</p>
+                        </div>
+                        <div class="content">
+                            <p>이 현 종 </p>
+                            <p>1994. 07. 13</p>
+                            <p>남 자</p>
+                            <p>010 - 3928 - 8184</p>
+                            <p>nick9498@naver.com</p>
+                        </div>
+                    </div>
+                    <!-- /내용 -->
+
+                </div>
+                <!-- //소개내용 -->
+            </div>
+
+            <!-- 스킬애니메이션 -->
+            <div class="skill_box">
+                <div class="skill_box1">
+                    <div class="skill1">
+                        <div data-donutty data-min=-100 data-max=100 data-value=60 data-circle=false data-color="#0ef7a7"><strong>Ps</strong></div>
+                        <p>Photoshop</p>
+                    </div>
+                    <div class="skill2">
+                        <div data-donutty data-min=-100 data-max=100 data-value=80 data-circle=false data-color="#0ef7a7"><strong>Ai</strong></div>
+                        <p>Illustrator</p>
+                    </div>
+                </div>
+                <div class="skill_box2">
+                    <div class="skill3">
+                        <div data-donutty data-min=-100 data-max=100 data-value=80 data-circle=false data-color="#0ef7a7"><strong>Hc</strong></div>
+                        <p>Html/Css</p>
+                    </div>
+                    <div class="skill4">
+                        <div data-donutty data-min=-100 data-max=100 data-value=40 data-circle=false data-color="#0ef7a7"><strong>An</strong></div>
+                        <p>Animate</p>
+                    </div>
+                </div>
+            </div>
+            <!-- //스킬애니메이션 -->
+        </div>
+    </div>
+    <!-- //About 페이지 -->
+    
+    <!-- History 페이지 -->
+    <div class="section" id="section1">
+        <div class="history">
+            <div class="history_box">
+                <div class="title"> H <span>ISTORY</span></div>
+                <table>
+                  <tr>
+                    <th>번호</th>
+                    <th>활동명</th>
+                    <th>기간</th>
+                    <th>미리보기</th>
+                    <th>다운</th>
+                  </tr>
+                  <tr>
+                    <td >1</td>
+                    <td class="work">UI컨텐츠 제작과정 수료<span>더조은 컴퓨터학원</span></td>
+                    <td>2018. 01. 31 &nbsp;&nbsp; ~ &nbsp;&nbsp;  2018. 05. 15</td>
+                    <td><a href="#" ><img src="img/home_play2.png" width="35" alt="#" onmouseover="this.src='img/home_play2.png'" onmouseout="this.src='img/home_play2.png'"></a></td>
+                    <td><a href="#"><img src="img/down.png" alt="#" onmouseover="this.src='img/down.png'" onmouseout="this.src='img/down.png'"></a></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td class="work">모바일 인터넷과 졸업<span>대림대학교</span></td>
+                    <td>2013. 03. 10 &nbsp;&nbsp; ~ &nbsp;&nbsp; 2018. 02. 10</td>
+                    <td><a href="#" ><img src="img/home_play2.png" width="35" alt="#" onmouseover="this.src='img/home_play2.png'" onmouseout="this.src='img/home_play2.png'"></a></td>
+                    <td><a href="#"><img src="img/down.png" alt="#" onmouseover="this.src='img/down.png'" onmouseout="this.src='img/down.png'"></a></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td class="work">육군 병장 만기제대<span>대한민국 국방부</span></td>
+                    <td>2014. 01. 14 &nbsp;&nbsp; ~ &nbsp;&nbsp; 2015. 10. 13</td>
+                    <td><a href="#" ><img src="img/home_play2.png" width="35" alt="#" onmouseover="this.src='img/home_play2.png'" onmouseout="this.src='img/home_play2.png'"></a></td>
+                    <td><a href="#"><img src="img/down.png" alt="#" onmouseover="this.src='img/down.png'" onmouseout="this.src='img/down.png'"></a></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td class="work">인문계 이과 졸업<span>영등포 고등학교</span></td>
+                    <td>2010. 03. 10 &nbsp;&nbsp; ~ &nbsp;&nbsp; 2013. 02. 10</td>
+                    <td><a href="#" ><img src="img/home_play2.png" width="35" alt="#" onmouseover="this.src='img/home_play2.png'" onmouseout="this.src='img/home_play2.png'"></a></td>
+                    <td><a href="#"><img src="img/down.png" alt="#" onmouseover="this.src='img/down.png'" onmouseout="this.src='img/down.png'"></a></td>
+                  </tr>
+                </table>
+            </div>
+        </div>
+        <div class="history2">
+            <div class="history_box">
+                <div class="title"> H <span>ISTORY</span></div>
+                <table>
+                  <tr>
+                    <th>번호</th>
+                    <th>활동</th>
+                    <th>미리보기</th>
+                    <th>다운</th>
+                  </tr>
+                  <tr>
+                    <td >1</td>
+                    <td class="work"><div class="td_box">UI컨텐츠 제작과정 수료<span>더조은 컴퓨터학원</span><strong>2018. 01. 31 &nbsp;&nbsp; ~ &nbsp;&nbsp;  2018. 05. 15</strong></div></td>
+                    <td><a href="#" ><img src="img/home_play2.png" width="25" alt="#" onmouseover="this.src='img/home_play2.png'" onmouseout="this.src='img/home_play2.png'"></a></td>
+                    <td><a href="#"><img src="img/down.png" alt="#" onmouseover="this.src='img/down.png'" onmouseout="this.src='img/down.png'"></a></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td class="work"><div class="td_box">모바일 인터넷과 졸업<span>대림대학교</span><strong>2013. 03. 10 &nbsp;&nbsp; ~ &nbsp;&nbsp; 2018. 02. 10</strong></div></td>
+                    <td><a href="#" ><img src="img/home_play2.png" width="25" alt="#" onmouseover="this.src='img/home_play2.png'" onmouseout="this.src='img/home_play2.png'"></a></td>
+                    <td><a href="#"><img src="img/down.png" alt="#" onmouseover="this.src='img/down.png'" onmouseout="this.src='img/down.png'"></a></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td class="work"><div class="td_box">육군 병장 만기제대<span>대한민국 국방부</span><strong>2014. 01. 14 &nbsp;&nbsp; ~ &nbsp;&nbsp; 2015. 10. 13</strong></div></td>
+                    <td><a href="#" ><img src="img/home_play2.png" width="25" alt="#" onmouseover="this.src='img/home_play2.png'" onmouseout="this.src='img/home_play2.png'"></a></td>
+                    <td><a href="#"><img src="img/down.png" alt="#" onmouseover="this.src='img/down.png'" onmouseout="this.src='img/down.png'"></a></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td class="work"><div class="td_box">인문계 이과 졸업<span>영등포 고등학교</span><strong>2010. 03. 10 &nbsp;&nbsp; ~ &nbsp;&nbsp; 2013. 02. 10</strong></div></td>
+                    <td><a href="#" ><img src="img/home_play2.png" width="25" alt="#" onmouseover="this.src='img/home_play2.png'" onmouseout="this.src='img/home_play2.png'"></a></td>
+                    <td><a href="#"><img src="img/down.png" alt="#" onmouseover="this.src='img/down.png'" onmouseout="this.src='img/down.png'"></a></td>
+                  </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- //History 페이지 -->
+
+    <!-- Work 페이지 -->
+    <div class="section" id="section2">
+        
+        <div class="slide" id="slide1" data-anchor="slide1">
+        <div class="title2"> W <span>ORK</span></div>
+            <div class="work">
+                <div class="workbox1">
+                    <div class="album" style="background-image: url(img/mokup/mokup_banner01.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">1</div>
+                        <div class="content_box">
+                            <div class="title">Banner</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="workbox2">
+                    <div class="album" style="background-image: url(img/mokup/mokup_event.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">2</div>
+                        <div class="content_box">
+                            <div class="title">Event</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="workbox3">
+                    <div class="album" style="background-image: url(img/mokup/mokup_webmail.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">3</div>
+                        <div class="content_box">
+                            <div class="title">Webmail</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" id="slide2" data-anchor="slide2">
+            <div class="title2"> W <span>ORK</span></div>
+            <div class="work">
+                <div class="workbox1">
+                    <div class="album" style="background-image: url(img/mokup/mokup_banner01.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">1</div>
+                        <div class="content_box">
+                            <div class="title">Banner</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="workbox2">
+                    <div class="album" style="background-image: url(img/mokup/mokup_event.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">2</div>
+                        <div class="content_box">
+                            <div class="title">Event</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="workbox3">
+                    <div class="album" style="background-image: url(img/mokup/mokup_webmail.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">3</div>
+                        <div class="content_box">
+                            <div class="title">Webmail</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" id="slide3" data-anchor="slide3">
+            <div class="title2"> W <span>ORK</span></div>
+            <div class="work">
+                <div class="workbox1">
+                    <div class="album" style="background-image: url(img/mokup/mokup_banner01.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">1</div>
+                        <div class="content_box">
+                            <div class="title">Banner</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="workbox2">
+                    <div class="album" style="background-image: url(img/mokup/mokup_event.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">2</div>
+                        <div class="content_box">
+                            <div class="title">Event</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="workbox3">
+                    <div class="album" style="background-image: url(img/mokup/mokup_webmail.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">3</div>
+                        <div class="content_box">
+                            <div class="title">Webmail</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="slide3" data-anchor="slide3">
+            <div class="title2"> W <span>ORK</span></div>
+            <div class="work">
+                <div class="workbox1">
+                    <div class="album" style="background-image: url(img/mokup/mokup_banner01.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">1</div>
+                        <div class="content_box">
+                            <div class="title">Banner</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="workbox2">
+                    <div class="album" style="background-image: url(img/mokup/mokup_event.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">2</div>
+                        <div class="content_box">
+                            <div class="title">Event</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="workbox3">
+                    <div class="album" style="background-image: url(img/mokup/mokup_webmail.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">3</div>
+                        <div class="content_box">
+                            <div class="title">Webmail</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="slide3" data-anchor="slide3">
+            <div class="title2"> W <span>ORK</span></div>
+            <div class="work">
+                <div class="workbox1">
+                    <div class="album" style="background-image: url(img/mokup/mokup_banner01.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">1</div>
+                        <div class="content_box">
+                            <div class="title">Banner</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="workbox2">
+                    <div class="album" style="background-image: url(img/mokup/mokup_event.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">2</div>
+                        <div class="content_box">
+                            <div class="title">Event</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="workbox3">
+                    <div class="album" style="background-image: url(img/mokup/mokup_webmail.png);">
+                        <div class="play_button"></div>
+                    </div>
+                    <div class="album_content">
+                        <div class="number">3</div>
+                        <div class="content_box">
+                            <div class="title">Webmail</div>
+                            <div class="sns">
+                                <a><img src="img/pb.png" width="20" alt=""><span>1,403</span></a>
+                                <a><img src="img/hb.png" width="20" alt=""><span>265</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Work 페이지 -->
+    
+    <!-- Contact 페이지 -->
+    <div class="section" id="section3">
+        <div class="column">
+            <form id="contact_form" name="contact_form" class="contact_form" method="post" action="https://formspree.io/nick9498@naver.com">
+                <div class="title3"> C <span>ONTACT</span></div>
+                <div class="two_columns_50_50 clearfix">
+                    <div class="column1">
+                        <div class="column_inner">
+                            <input type="text" class="requiredField placeholder" name="name" id="name" placeholder="이 름 *">
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <div class="column_inner">
+                            <input type="text" class="requiredField placeholder" name="title" id="title"placeholder="제 목 *">
+                        </div>
+                    </div>
+                </div>
+                    <div class="website_field_holder">
+                        <input type="text" class="requiredField email placeholder" name="email" id="email" value="" placeholder="Email *">
+                        <input type="hidden" name="website" id="website" value="">
+                    </div>
+                        <textarea name="content" id="content" rows="10" placeholder="내용" class="placeholder"></textarea>
+                <span class="submit_button_contact">
+                    <input class="qbutton contact_form_button" type="submit" value="Contact Us">
+                </span>
+            </form>
+        </div>
+    </div>
+    <!-- //Contact 페이지 -->
+
+</div>
+<!-- 스킬애니메이션 -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/donutty-jquery.js"></script>
+
+<!-- 페이지애니메이션 -->
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#000000', '#000000', '#000000', '#000000'],
+        anchors: ['about', 'history', 'work','contact'],
+        slidesNavigation: true,
+        showActiveTooltip: true,
+        menu: '#menu'
+    });
+</script>
+<script src="js/classie.js"></script>
+        <script>
+            var menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+                body = document.body;
+
+            showRight.onclick = function() {
+                classie.toggle( this, 'active' );
+                classie.toggle( menuRight, 'cbp-spmenu-open' );
+                disableOther( 'showRight' );
+            };
+
+            function disableOther( button ) {
+                if( button !== 'showRight' ) {
+                    classie.toggle( showRight, 'disabled' );
+                }
+            }
+        </script>
+        <script>
+            var menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+                body = document.body;
+
+            showLeft.onclick = function() {
+                classie.toggle( this, 'active' );
+                classie.toggle( menuRight, 'cbp-spmenu-open' );
+                disableOther( 'showLeft' );
+            };
+
+            function disableOther( button ) {
+                if( button !== 'showLeft' ) {
+                    classie.toggle( showLeft, 'disabled' );
+                }
+            }
+        </script>
+</body>
+</html>
