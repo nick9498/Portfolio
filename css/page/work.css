@@ -40,11 +40,11 @@
 .work .album .play_button{
 	width: 50px;
 	height: 50px;
-	background-image: url('../img/playbutton.png');
+	background-image: url('../../img/playbutton.png');
 	background-size: 50px;
 }
 .work .album .play_button:hover{
-	background-image: url('../img/playbutton_h.png');
+	background-image: url('../../img/playbutton_h.png');
 }
 
 .work .album_content{
@@ -79,3 +79,91 @@
 	margin-left: 10px;
 	margin-top: 2px;
 }
+
+@media screen and (max-width:1300px){
+
+.section .title2{
+	margin-right: 720px;
+}
+
+.work{
+	width:100%;
+}
+
+.work .workbox1,.workbox2,.workbox3{
+	margin: 0 20px;
+}
+
+.work .album{
+	width: 250px;
+	height: 150px;
+	background-size: 250px 150px;
+}
+
+.work .album .play_button{
+	width: 40px;
+	height: 40px;
+	background-size: 40px;
+}
+
+.work .album_content{
+	margin-top: 10px;
+}
+.work .album_content .number{
+	font-size: 30px;
+	margin-right: 20px;
+	color: #0ef7a7;
+}
+.work .album_content .content_box{
+	display: flex;
+	flex-direction:column;
+}
+
+.work .album_content .content_box .title{
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+.work .album_content .content_box .sns{
+	display: none;
+}
+
+}
+
+@media screen and (max-width:950px){
+
+.work .album{
+	width: 180px;
+	height: 100px;
+	background-size: 180px 100px;
+}
+.section .title2{
+	margin-right: 510px;
+}
+
+}
+@media screen and (max-width:750px){
+
+.work{
+	align-items: center;
+	flex-direction:column;
+}
+.work .workbox1,.workbox2,.workbox3{
+	margin: 25px 0px;
+}
+.section .title2{
+	margin-right: 80px;
+}
+.work .album_content .number{
+	font-size: 20px;
+	margin-right: 20px;
+	font-weight: 700;
+}
+.work .album_content .content_box .title{
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 4px;
+}
+
+}
+

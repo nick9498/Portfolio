@@ -96,3 +96,10 @@ input[type="hidden" i] {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
+@media screen and (max-width:1200px){
+
+.contact_form{
+	width: 80%;
+}
+
+}
