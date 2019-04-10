@@ -139,6 +139,8 @@
 }
 .section .title2{
 	margin-right: 510px;
+	margin-bottom: 0px
+	margin-bottom:10px;
 }
 
 }
@@ -149,10 +151,11 @@
 	flex-direction:column;
 }
 .work .workbox1,.workbox2,.workbox3{
-	margin: 25px 0px;
+	margin: 15px 0px;
 }
 .section .title2{
 	margin-right: 80px;
+	margin-bottom:0px;
 }
 .work .album_content .number{
 	font-size: 20px;
