@@ -172,21 +172,21 @@
 }
 
 .bg_box .bg_m4{
-	top: 15%;
-	left: 0%;
+	top: 25%;
+	left: 5%;
 }
 .bg_box .bg_m4 img{
-	width: 250px;
+	width: 200px;
 }
 .bg_box .bg_m5{
-	top: 10%;
-	left: 60%;
+	top: 5%;
+	left: 65%;
 }
 .bg_box .bg_m5 img{
 	width: 120px;
 }
 .bg_box .bg_m6{
-	top: 80%;
+	top: 90%;
 	left: 70%;
 }
 .bg_box .bg_m6 img{
@@ -195,21 +195,21 @@
 
 
 .bg_box .bg_m7{
-	top: 0%;
+	top: 5%;
 	left: 5%;
 }
 .bg_box .bg_m7 img{
 	width: 250px;
 }
 .bg_box .bg_m8{
-	top: 40%;
+	top: 50%;
 	left: 75%;
 }
 .bg_box .bg_m8 img{
 	width: 50px;
 }
 .bg_box .bg_m9{
-	top: 65%;
+	top: 85%;
 	left: 10%;
 }
 
@@ -222,7 +222,7 @@
 	width: 250px;
 }
 .bg_box .bg_m13{
-	top: 65%;
+	top: 75%;
 	left: 15%;
 }
 .bg_box .bg_m13 img{
