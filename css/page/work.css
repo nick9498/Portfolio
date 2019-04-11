@@ -2,6 +2,7 @@
 	color: #0ef7a7;
     font-weight: bold;
     font-size: 40px;
+    font-family:'Nanum Barun Gothic', sans-serif;
     margin-right: 1008px;
     margin-bottom: 20px;
 }
@@ -19,7 +20,7 @@
 	justify-content: center;
 	text-align: left;
 	font-family:'Nanum Barun Gothic', sans-serif;
-	color: white;
+	color: white ;
 }
 
 .work .workbox1,.workbox2,.workbox3{
@@ -78,6 +79,9 @@
 .work .album_content .content_box .sns span{
 	margin-left: 10px;
 	margin-top: 2px;
+}
+.work .album_content .content_box a:active, a:visited,a{
+	color: white;
 }
 
 @media screen and (max-width:1300px){

@@ -1,10 +1,12 @@
 /* General styles for all menus */
 .cbp-spmenu {
-	background: #48d88d;
+	background: #000000;
 	position: fixed;
 	font-family:'Nanum Barun Gothic', sans-serif;
 	font-weight: 400;
 	letter-spacing: 4px;
+	border-left: 1px solid #303030;
+
 }
 
 .cbp-spmenu h3 {
@@ -13,6 +15,7 @@
 	padding: 20px 0px 20px 15px;
 	margin: 0;
 	background: #008951;
+
 
 }
 
@@ -44,15 +47,15 @@
 }
 
 .cbp-spmenu-vertical a {
-	border-bottom: 1px solid #27cc7d;
+	border-bottom: 1px solid #606060;
 	padding: 1em;
 }
 .cbp-spmenu-vertical h3 a {
-	border-bottom: 0px solid #27cc7d;
+	border-bottom: 0px solid #606060;
 	padding: 0em 0em 0em 0em;
 }
 .cbp-spmenu-vertical h2 a {
-	border-bottom: 0px solid #27cc7d;
+	border-bottom: 0px solid #606060;
 }
 
 .cbp-spmenu-horizontal {
