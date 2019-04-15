@@ -213,3 +213,28 @@ div.audio-player {
 .mejs-controls .mejs-time-rail .mejs-time-float-current {
 	display: none;
 }
+
+
+@media screen and (max-width:1350px){
+	.mejs-horizontal-volume-total {
+	display: none;
+	}
+	.mejs-horizontal-volume-current{
+		display: none;
+	}
+	.mejs-horizontal-volume-handle {
+		display: none !important;
+	}
+	.mejs-controls .mejs-mute button,
+	.mejs-controls .mejs-unmute button {
+		display: none;
+	}
+	.mejs-controls .mejs-unmute button {
+		display: none;
+	}
+	.track_box{
+	top: 280px;
+}
+
+
+}
