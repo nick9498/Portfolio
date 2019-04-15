@@ -1,81 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*main_bg*/
-#main_bg { 
-	width: 100%;
-	font-family:'Nanum Barun Gothic', sans-serif;
-}
-
-/*menu*/
-#menu {
-	position: fixed;
-	width:276px;
-	top: 40px;
-	left: 40px;
-	font-family:'Nanum Barun Gothic', sans-serif;
-}
-.webdesign {
-	width:95%;
-	height:350px;
-	margin-top: 40px;
-	background-color: white;
-	overflow: hidden;
-}
-.webdesign:hover {
-	overflow-y: scroll;
-}
-.webdesign .title{
-	display: flex;
-	align-items: flex-start;
-	justify-content: flex-start;
-	margin-left: 20px;
-	height: 30px;
-	padding: 20px 10px;
-	color: #ccc;
-	font-size: 20px;
-	font-weight: 700;
-}
-.webdesign .title:hover{
-	background-color: #0ef7a7;;
-	color: #fff;
-}
-.webdesign .title:hover>span{
-	color: #fff;
-	font-weight: 700;
-}
-
-.webdesign .title span{
-	margin-left: 20px;
-	line-height: 25px;
-	font-size: 25px;
-	font-weight: 400;
-	color: #aaa;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 8px;
-  background-color: #bbb;
-}
-::-webkit-scrollbar {
-  width: 10px;  /* 세로축 스크롤바 길이 */
-  height: 20px;  /* 가로축 스크롤바 길이 */
-}
-
-
-/*copyright*/
-.copy {
-	width: 90%;
-	font-family:'Nanum Barun Gothic', sans-serif;
-	font-size: 9px;
-	letter-spacing: 0px;
-	color: #ccc;
-	margin-top:50px;
-	margin-left: 30px;
-}
-
-
-/*------------------------------------------------------*/
 
 /*content*/
 .content { 
@@ -115,60 +40,17 @@
 	font-weight: 400;
 	margin-top: 30px;
 }
-.content .work .portfolio_image{
-	margin-top: 80px;
-	margin-bottom: 80px;
-	text-align: center;
-	color: #666;
-	font-size: 25px;
-	font-weight: 00;
-}
-.content .work .portfolio_image:nth-of-type(2),.portfolio_image:nth-of-type(3){
-	float: left;
-	margin-right: 80px;
-}
-
-.content .work .portfolio_image:nth-of-type(4){
+.work img{
+	margin-top: 100px;
 	float: left;
 	clear: both;
-	margin-right: 80px;
 }
-
-.content .work .portfolio_image:nth-of-type(4) span{
-	font-size: 20px;
-	font-weight: 700;
+.content .work{
+	margin-top: 80px;
+	margin-bottom: 40px;
+	margin-left: 30px;
 }
-/*------------------------------------------------------*/
-.lb-overlay{
-	width: 0px;	height: 0px;
-	position: fixed;
-	overflow:scroll;
-	left: 0px;top: 0px;
-	padding: 0px;
-	z-index: 99;
-	text-align: center;
-	background: #fff;
-}
-.lb-overlay img {clear:both;margin:5px;}
-.lb-overlay a.lb-close{
-	z-index: 1001;
-	color:#4687a1;
-	position: absolute;top: 43px;left: 50%;
-	font-size: 36px;line-height: 36px;
-	text-align: center;
-	width: 50px;
-	height: 50px;
-	overflow: hidden;
-	margin-left: -25px;
-	opacity: 0;
-	filter: alpha(opacity=0); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
-}
-.lb-overlay img{
-	/* height: 100%; For Opera max-height does not seem to work */
-	width: 90%;
-	position: relative;
-	-webkit-box-shadow: 0px 2px 7px black;
-	-moz-box-shadow: 0px 2px 7px black;
-	box-shadow: 0px 2px 7px black;
+.content .work img{
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 20px 10px #ccc
 }

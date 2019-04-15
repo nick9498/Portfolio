@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*main_bg*/
+#main_bg { 
+	width: 100%;
+	font-family:'Nanum Barun Gothic', sans-serif;
+}
+
+/*menu*/
+#menu {
+	position: fixed;
+	width:276px;
+	top: 40px;
+	left: 40px;
+	font-family:'Nanum Barun Gothic', sans-serif;
+}
+.webdesign {
+	width:95%;
+	height:280px;
+	margin-top: 20px;
+	background-color: white;
+	overflow: hidden;
+}
+.webdesign:hover {
+	overflow-y: scroll;
+}
+.webdesign .title{
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-left: 20px;
+	height: 30px;
+	padding: 20px 10px;
+	color: #ccc;
+	font-size: 20px;
+	font-weight: 700;
+}
+.webdesign .title:hover{
+	background-color: #0ef7a7;;
+	color: #fff;
+}
+.webdesign .title:hover>span{
+	color: #fff;
+	font-weight: 700;
+}
+
+.webdesign .title span{
+	margin-left: 20px;
+	line-height: 25px;
+	font-size: 25px;
+	font-weight: 400;
+	color: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #bbb;
+}
+::-webkit-scrollbar {
+  width: 10px;  /* 세로축 스크롤바 길이 */
+  height: 20px;  /* 가로축 스크롤바 길이 */
+}
+
+
+/*copyright*/
+.copy {
+	width: 90%;
+	font-family:'Nanum Barun Gothic', sans-serif;
+	font-size: 9px;
+	letter-spacing: 0px;
+	color: #ccc;
+	margin-top:20px;
+	margin-left: 30px;
+}
+
+
+/*------------------------------------------------------*/
+
+
+
+
+
+ @media screen and (max-width:1700px){
+ 	.content { 
+	margin-left: 500px;
+	}
+}
+ @media screen and (max-width:1350px){
+ 	.content { 
+	margin-left: 350px;
+	}
+}
