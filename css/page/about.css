@@ -1,0 +1,233 @@
+/* About CSS
+ * --------------------------------------- */
+
+
+.about{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	font-family: 'Jua', sans-serif;
+	color: black;
+}
+.about .innerbox{
+	display: flex;
+	justify-content: center;
+	text-align: left;
+}
+.about .image_box{
+	margin-right: 50px;
+}
+.about .image_box .title{
+	margin-top: -46px;
+	color: #00c3ff;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about .image_box .title span{
+    color: black;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+/* 소개내용  */
+.about .intro_box{
+	display: flex;
+	flex-direction:column;
+	margin-right: 150px;
+}
+
+/* 소개내용_제목부분 */
+.about .intro_box .title_box{
+	width: 100%;
+	font-weight: 400;
+	font-size: 35px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.about .intro_box .grade_box{
+	display: flex;
+	align-items : center;
+	font-size: 28px;
+	margin-top: 10px;
+}
+.about .intro_box .grade_box .score{
+	height: 33px;
+	margin-left: 12px;
+	color: #00c3ff;
+}
+.about .intro_box .grade_box .grade img{
+	width: 35px;
+	height: 35px;
+}
+
+
+/* 소개내용_내용부분 */
+.about .intro_box .content_box{
+	display: flex;
+	flex-direction:row;
+	font-family: 'Jua', sans-serif;
+	font-size: 20px;
+	line-height: 45px;
+}
+.about .intro_box .content_box .title{
+	font-weight: 400;
+	color: #1b1b1b;
+	margin-right: 30px;
+}
+.about .intro_box .content_box .content{
+	font-weight: 100;
+	color: #3c3c3c;
+}
+
+
+/* 소개내용_스킬부분 */
+.skill_1{display: inherit;}
+.skill_2{display: none;}
+
+.about .skill_box{
+	display: flex;
+ 	flex-direction: column;
+ 	font-weight: 400;
+ 	text-align: center;
+}
+.about .skill_box .skill_box1{
+ 	display: flex;
+ 	padding-top: 30px;
+ }
+ .about .skill_box .skill_box2{
+ 	display: flex;
+ 	padding-top: 30px;
+ }
+ .about .skill_box .skill1,.skill3{
+ 	padding-right: 80px;
+ }
+.about .skill_box .skill1 strong,.skill2 strong,.skill3 strong,.skill4 strong{
+	margin-top: 40px;
+	color: #00c3ff;
+ 	font-size: 30px;
+ 	font-weight: 400;
+}
+ .about .skill_box .skill1 strong{
+ 	position: absolute;
+ 	margin-left: 45px;
+ }
+ .about .skill_box .skill2 strong{
+ 	position: absolute;
+ 	margin-left: 45px;
+ }
+ .about .skill_box .skill3 strong{
+ 	position: absolute;
+ 	margin-left: 45px;
+ }
+ .about .skill_box .skill4 strong{
+ 	position: absolute;
+ 	margin-left: 40px;	
+ }
+
+ @media screen and (max-width:1200px){
+
+.about{
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+}
+.about .intro_box{
+	margin-right: 0px;
+}
+.about .skill_box{
+	flex-direction:row;
+	margin-top: 30px;
+}
+ .about .skill_box .skill2{
+ 	padding-right: 80px;
+}
+
+}
+
+@media screen and (max-width:750px){
+
+.about .image_box{
+	margin-right: 20px;
+}
+.about .image_box .title{
+	margin-top: 30px;
+}
+
+.about .image_box img{
+	width: 160px;
+}
+.about .intro_box{
+	margin-top: 100px;
+}
+.about .intro_box .title_box{
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.about .intro_box .grade_box{
+	font-size: 12px;
+	margin-top: 10px;
+}
+.about .intro_box .grade_box .score{
+	height: 15px;
+	margin-left: 10px;
+}
+.about .intro_box .grade_box .grade img{
+	width: 12px;
+	height: 12px;
+}
+.about .intro_box .content_box{
+	font-size: 12px;
+	line-height: 30px;
+}
+.about .intro_box .content_box .title{
+	font-weight: 400;
+	margin-right: 20px;
+}
+
+.about .skill_box{
+	width: 80%;
+	justify-content: center;
+ 	margin-top: 0px;
+ 	font-weight: 100;
+}
+ .about .skill_box .skill2{
+ 	padding-right: 0px;
+}
+.skill_1{display: none;}
+.skill_2{display: inherit;}
+
+.about .skill_box .skill1,.skill3{
+ 	padding: 20px 15px;
+ }
+ .about .skill_box .skill2,.skill4{
+ 	padding: 20px 15px;
+ }
+ .about .skill_box .skill1 strong,.skill2 strong,.skill3 strong,.skill4 strong{
+	margin-top: 28px;
+ 	font-size: 15px;
+ 	font-weight: 100;
+}
+.about .skill_box .skill_box1{
+ 	padding-top: 10px;
+ }
+ .about .skill_box .skill_box2{
+ 	padding-top: 10px;
+ }
+ .about .skill_box .skill1 strong{
+ 	margin-left: 30px;
+ }
+ .about .skill_box .skill2 strong{
+ 	margin-left: 30px;
+ }
+ .about .skill_box .skill3 strong{
+ 	margin-left: 28px;
+ }
+ .about .skill_box .skill4 strong{
+ 	margin-left: 28px;
+ }
+
+}
